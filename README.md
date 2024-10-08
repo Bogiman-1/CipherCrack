@@ -21,7 +21,7 @@
 3. **Run the Script:**
 
    ```bash
-   python hashcracker.py <hash> <algorithm> <wordlist>
+   python CipherCrack.py <hash> <algorithm> <wordlist>
    ```
 
    - `<hash>`: The hash you want to crack (e.g., `5d41402abc4b2a76b9719d911017c592`).
@@ -31,7 +31,7 @@
 4. **Example:**
 
    ```bash
-   python hashcracker.py 5d41402abc4b2a76b9719d911017c592 md5 wordlist.txt
+   python CipherCrack.py 5d41402abc4b2a76b9719d911017c592 md5 wordlist.txt
    ```
 
    - In this example, the tool will attempt to crack the MD5 hash for "hello" using the provided wordlist.
